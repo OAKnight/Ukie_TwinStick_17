@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ukie_TwinStick_17.CSharp", "Ukie_TwinStick_17.CSharp.csproj", "{926CDC4A-EEA7-AC43-73B5-7575208408EC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ukie_TwinStick_17.CSharp.Editor", "Ukie_TwinStick_17.CSharp.Editor.csproj", "{34652152-B8AE-0085-9B3D-052030BC5D15}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{926CDC4A-EEA7-AC43-73B5-7575208408EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{926CDC4A-EEA7-AC43-73B5-7575208408EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{926CDC4A-EEA7-AC43-73B5-7575208408EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{926CDC4A-EEA7-AC43-73B5-7575208408EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34652152-B8AE-0085-9B3D-052030BC5D15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34652152-B8AE-0085-9B3D-052030BC5D15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34652152-B8AE-0085-9B3D-052030BC5D15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34652152-B8AE-0085-9B3D-052030BC5D15}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
