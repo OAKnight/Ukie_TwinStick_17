@@ -13,7 +13,9 @@ sysinfo.txt
 *.unitypackage
 *.dll
 *.xml
- 
+*.log
+*.dwlt
+
 # ===================================== #
 # Visual Studio / MonoDevelop generated #
 # ===================================== #
