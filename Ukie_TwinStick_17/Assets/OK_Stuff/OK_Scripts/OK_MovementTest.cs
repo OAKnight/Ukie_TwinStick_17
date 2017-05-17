@@ -20,8 +20,8 @@ public class OK_MovementTest : MonoBehaviour {
         {
             // Left analog controls to move the PC within the space
 
-            float transV = Input.GetAxis("Vertical1") * fl_SpeedV;
-            float transH = Input.GetAxis("Horizontal1") * fl_SpeedH;
+            float transV = Input.GetAxis("Vertical") * fl_SpeedV;
+            float transH = Input.GetAxis("Horizontal") * fl_SpeedH;
             transV *= Time.deltaTime;
             transH *= Time.deltaTime;
             transform.position += new Vector3(0, 0, transV);
