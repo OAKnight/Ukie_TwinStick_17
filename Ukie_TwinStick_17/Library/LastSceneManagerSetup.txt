@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/OK_Stuff/OK_Scenes/OK_Test.unity
+- path: Assets/SL_Scenes/SL_ProceeduralTesting.unity
   isLoaded: 1
   isActive: 1
