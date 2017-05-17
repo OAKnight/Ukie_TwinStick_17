@@ -52,6 +52,9 @@
     <Reference Include="UnityEngine">
       <HintPath>Library\UnityAssemblies\UnityEngine.dll</HintPath>
     </Reference>
+    <Reference Include="UnityEngine.Advertisements">
+      <HintPath>Library\UnityAssemblies\UnityEngine.Advertisements.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEngine.UI">
       <HintPath>Library\UnityAssemblies\UnityEngine.UI.dll</HintPath>
     </Reference>
@@ -66,6 +69,9 @@
     </Reference>
     <Reference Include="UnityEngine.HoloLens">
       <HintPath>Library\UnityAssemblies\UnityEngine.HoloLens.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Purchasing">
+      <HintPath>Library\UnityAssemblies\UnityEngine.Purchasing.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.VR">
       <HintPath>Library\UnityAssemblies\UnityEngine.VR.dll</HintPath>
@@ -83,6 +89,7 @@
     <Compile Include="Assets\GM_Stuff\GM_Scripts\GM_Player_Shoot.cs" />
     <Compile Include="Assets\GM_Stuff\GM_Scripts\GM_Player_Speed.cs" />
     <Compile Include="Assets\GM_Stuff\GM_Scripts\GM_Speed.cs" />
+    <Compile Include="Assets\GM_Stuff\GM_Scripts\GM_Useless.cs" />
     <Compile Include="Assets\OK_Stuff\OK_Scripts\DD_3D_Projectile.cs" />
     <Compile Include="Assets\OK_Stuff\OK_Scripts\OK_ArrowBehaviour.cs" />
     <Compile Include="Assets\OK_Stuff\OK_Scripts\OK_CameraControls.cs" />
