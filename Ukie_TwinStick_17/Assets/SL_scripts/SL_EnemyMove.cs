@@ -5,12 +5,17 @@ using UnityEngine.AI;
 
 public class SL_EnemyMove : MonoBehaviour 
 {
+    //change
     private Vector3 mV3_TargetLocation;
     private GameObject mGO_PC;
 
     private NavMeshAgent mNM_agent;
 
     private SL_GameManager mSCR_gameManager;
+
+    //public variables
+    public float mFL_MovementSpeed;
+    public float mFL_AttackSpeed;
 
 	// Use this for initialization
 	void Start () 
@@ -22,7 +27,9 @@ public class SL_EnemyMove : MonoBehaviour
 
         InvokeRepeating("EnemyMove", 0.1f, 0.1f);
 
-        InvokeRepeating("AttackPlayer", 1f, 1f);
+        InvokeRepeating("AttackPlayer", mFL_AttackSpeed, mFL_AttackSpeed);
+
+        mNM_agent.speed = mFL_MovementSpeed;
 	}
 	
 	// Update is called once per frame

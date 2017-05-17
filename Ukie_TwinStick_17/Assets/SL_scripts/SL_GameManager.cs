@@ -27,6 +27,11 @@ public class SL_GameManager : MonoBehaviour
         {
             mIN_playerHP = mIN_playerHPMax;
         }
+
+        if(mIN_playerHP <= 0)
+        {
+            print("DEAD");
+        }
 	}
 
     void CompileSpawners()
