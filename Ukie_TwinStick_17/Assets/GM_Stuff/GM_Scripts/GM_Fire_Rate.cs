@@ -20,6 +20,8 @@ public class GM_Fire_Rate : MonoBehaviour {
     void OnTriggerEnter(Collider collider)
     {
         if (Player.CompareTag("Player1"))
-            Player.SendMessage("FireRate", enabled);
+        {
+            Player.SendMessage("FireRate", enabled, SendMessageOptions.DontRequireReceiver);
+        }
     }
 }
